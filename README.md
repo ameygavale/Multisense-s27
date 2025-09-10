@@ -6,13 +6,13 @@ Connect the MultiSense S27 camera directly to your computer's Ethernet port usin
 
 You must configure a static IP address for the wired network interface. This ensures your computer is on the same subnet as the camera, which has a default IP of `10.66.171.21`.
 
-Use the `nmcli` command to set a static IP address on your `ouster` connection:
+Use the `nmcli` command to set a static IP address on your `_____________` connection:
 
-`nmcli con modify ouster ipv4.method manual ipv4.addresses 10.66.171.200/24`
+`nmcli con modify ________ ipv4.method manual ipv4.addresses 10.66.171.200/24`
 
 Apply the changes and bring the connection up:
 
-`nmcli con up ouster`
+`nmcli con up ____________`
 
 ## **3\. Software Setup**
 
